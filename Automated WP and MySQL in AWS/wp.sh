@@ -13,10 +13,10 @@ wget https://wordpress.org/latest.tar.gz
 tar xpf latest.tar.gz
 touch wordpress/wp-config.php
 
-sudo apt-get remove apache2
-sudo apt-get remove apache2-bin
-sudo apt-get remove apache2-data
-sudo apt-get remove apache2-utils
+# sudo apt-get remove apache2
+# sudo apt-get remove apache2-bin
+# sudo apt-get remove apache2-data
+# sudo apt-get remove apache2-utils
 
 sudo apt-get install -y nginx
 
